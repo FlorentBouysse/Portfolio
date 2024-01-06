@@ -1,4 +1,4 @@
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
     .wrapper {
         width: 100vw;
     }
@@ -13,6 +13,16 @@
 
     .mobil__screen {
         display: none;
+    }
+
+    /* ==========================================
+    ===================== NAV
+    ============================================= */
+
+    .banniere__middle {
+        /* bottom: -120; */
+        left: 0;
+        width: 100%;
     }
 }
 

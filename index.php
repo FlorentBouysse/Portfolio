@@ -37,11 +37,48 @@
                 </div>
                 <div class="about main__size">
                     <h2>Skill</h2>
-                    <div class="container__skill">
-                        <h3>Front-end</h3>
-                        <h3>Back-end</h3>
+                    <div class="container__about">
+                        <div class="container__skill">
+                            <div class="skill__front">
+                                <div class="skill__title">
+                                    <h3>Front-end</h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="about__icon__plus">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="about__icon__minus">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                                    </svg>
+                                </div>
+                                <div class="skill__front__logo">
+                                    <img src="./assets/pictures/logo/html.png" alt="logo HTML" class="skill__logo">
+                                    <img src="./assets/pictures/logo/css.png" alt="logo CSS" class="skill__logo">
+                                    <img src="./assets/pictures/logo/js.png" alt="logo Javascript" class="skill__logo">
+                                    <img src="./assets/pictures/logo/bootstrap.png" alt="logo Bootstrap" class="skill__logo">
+                                </div>
+                            </div>
+                            <div class="skill__back">
+                                <div class="skill__title">
+                                    <h3>Back-end</h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="about__icon__plus">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="about__icon__minus">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                                    </svg>
+                                </div>
+                                
+                                <div class="skill__back__logo">
+                                    <img src="./assets/pictures/logo/php.png" alt="logo PHP" class="skill__logo">
+                                    <img src="./assets/pictures/logo/Symfony.png" alt="logo Symfony" class="skill__logo">
+                                    <img src="./assets/pictures/logo/MySql.png" alt="logo MySql" class="skill__logo">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <p class="about__paragraphe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vero suscipit commodi odio nemo nisi placeat, eligendi rem ipsa ipsam debitis? Laudantium magni necessitatibus itaque asperiores? Quidem quam culpa ex.</p>
                     </div>
-                    <p>Petit texte à propos de moi</p>
+                    <img class="banniere__middle" src="./assets/pictures/957240.jpg" alt="">
+                    
                 </div>
                 <div class="project main__size">
 
