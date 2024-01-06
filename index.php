@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Florent Bouysse</title>
 </head>
 <body>
@@ -11,10 +12,17 @@
         <header>
             <nav>
                 <a class="logo" href="#">Logo</a>
-                <a href="#">Accueil</a>
-                <a href="#">A propos</a>
-                <a href="#">Mes projets</a>
-                <a href="#">Contact</a>
+                <div class="mobil__screen">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+                <div class="big__screen">
+                    <a href="#">Accueil</a>
+                    <a href="#">A propos</a>
+                    <a href="#">Mes projets</a>
+                    <a href="#">Contact</a>
+                </div>
             </nav>
         </header> 
         <main>
@@ -28,7 +36,12 @@
                     </div>
                 </div>
                 <div class="about main__size">
-
+                    <h2>Skill</h2>
+                    <div class="container__skill">
+                        <h3>Front-end</h3>
+                        <h3>Back-end</h3>
+                    </div>
+                    <p>Petit texte à propos de moi</p>
                 </div>
                 <div class="project main__size">
 

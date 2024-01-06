@@ -49,7 +49,8 @@ nav {
     top: 3%;
 }
 
-nav a {
+nav .big__screen a,
+nav .logo {
     text-decoration: none;
     color: #D50C77;
     padding: 1rem 2rem;
@@ -57,6 +58,10 @@ nav a {
 
 nav .logo {
     margin-right: 50px;
+}
+
+nav .mobil__screen {
+    display: none;
 }
 
 /* ==================================================
@@ -110,19 +115,4 @@ h1 {
     width: 35%;
     height: 30vh;
     background-image: url("../pictures/Sans-titre-18-1024x589.jpg");
-}
-
-
-/* ==================================================
-============= * RESPONSIVE * ==================
-=====================================================*/
-
-@media (max-width: 1300px) {
-    .wrapper {
-        width: 100vw;
-    }
-
-    .profil__img {
-        right: 10%;
-    }
 }
