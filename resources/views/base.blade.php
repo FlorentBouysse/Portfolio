@@ -14,7 +14,7 @@
         <a class="text-green-400 px-4" href="#">About me</a>
         <a class="text-green-400 px-4" href="#">Contact</a>
     </nav>
-    <main class="bg-gray-900 text-white p-8 overflow-hidden">
+    <main class="bg-gray-900 text-white py-8 ps-8 overflow-hidden">
         @yield('content')
 
     </main>

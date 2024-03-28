@@ -1,10 +1,10 @@
 <div class="mt-16 relative">
     <span class="text-xs text-green-400">Project Work</span>
-    <h2 class="text-3xl mt-6">Specialist Focus Project</h1>
-    <p class="mt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    <h2 class="text-3xl mt-6 pe-8">Specialist Focus Project</h1>
+    <p class="mt-6 pe-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
     
     {{-- icon more --}}
-    <div class="text-end">
+    <div class="text-end pe-8">
         <i class=" rotate-45 fa-solid fa-circle-arrow-up"></i>
         <p class="text-xs text-green-400">More project</p>
     </div>

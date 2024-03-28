@@ -1,9 +1,9 @@
 <div class="mt-20 relative">
     <span class="text-xs text-green-400">Skills Possessed</span>
     <h2 class="text-3xl mt-6">Lorem Ipsum is simply dummy text</h1>
-    <p class="mt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    <p class="mt-6 pe-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     {{-- Icon --}}
-    <div class="relative h-60 mt-6">
+    <div class="relative h-60 mt-6 pe-8">
         {{-- HTML --}}
         <div class="w-14 h-14 bg-gray-500 rounded-full text-white flex justify-center items-center absolute">
             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">
