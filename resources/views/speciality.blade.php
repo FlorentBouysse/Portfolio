@@ -1,7 +1,7 @@
 <div class="mt-24 relative">
     <span class="text-xs text-green-400">Specialist</span>
     <h2 class="text-3xl mt-6 pe-8">Specialist Focus Project</h1>
-    <p class="mt-6 pe-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    <p class="mt-6 pe-8 md:text-xl md:mr-96 md:pr-40">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 
     <div class="flex flex-col justify-evenly m-auto h-96 pe-8 md:w-1/3">
         <div class="z-10 bg-gray-500 h-20 relative rounded-xl opacity-75">
