@@ -9,12 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <nav class="py-4 bg-gray-900 flex text-current md:ps-40">
+    <nav class="py-4 bg-gray-900 flex text-current md:px-40">
         <a class="text-green-400 px-4" href="#">Home</a>
         <a class="text-green-400 px-4" href="#">About me</a>
         <a class="text-green-400 px-4" href="#">Contact</a>
     </nav>
-    <main class="bg-gray-900 text-white py-8 ps-8 overflow-hidden md:ps-40">
+    <main class="bg-gray-900 text-white py-8 ps-8 overflow-hidden md:px-40">
     
         @yield('content')
 

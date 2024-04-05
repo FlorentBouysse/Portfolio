@@ -1,4 +1,4 @@
-<div class="mt-16 relative">
+<div class="mt-16 relative ">
     <span class="z-10 text-xs text-green-400">Project Work</span>
     <h2 class="z-10 text-3xl mt-6 pe-8">Specialist Focus Project</h1>
     <p class="z-10 mt-6 pe-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
