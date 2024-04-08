@@ -1,10 +1,10 @@
 <div class="mt-24 flex flex-col text-center relative">
     <span class="text-xs text-green-400">Send me a message</span>
     <h2 class="text-3xl mt-6">Contact</h1>
-    <p class="mt-6 pe-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+    <p class="mt-6 pe-8 md:text-xl md:mx-auto md:w-2/3 md:my-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
 
     <div class="flex flex-col justify-evenly h-96 pe-8">
-        <form class="flex flex-col relative" action="">
+        <form class="flex flex-col relative md:w-1/2 md:m-auto" action="">
             <label class="z-10 text-start" for="name">Name</label>
             <input class="z-10 mb-2 rounded-lg pl-4" type="text" name="name" id="name" placeholder="Jimmy">
 

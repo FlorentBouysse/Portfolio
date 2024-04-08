@@ -15,7 +15,7 @@
     <div style="right:-160px;width:700px;height:700px" class=" rounded-full opacity-20 bg-gray-500 absolute top-20"></div>
     <div class="text-9xl opacity-5 absolute top-10 uppercase font-black text-white right-96">Hello</div>
     @endif
-    <div style="box-shadow: 0px -5px 10px rgb(17 24 39);" class="z-10 absolute bg-gray-900 w-screen h-24 bottom-20 right-0 md:h-40 md:w-2/5 md:bottom-0 md:right-24"></div>
+    <div style="box-shadow: 0px -5px 10px rgb(17 24 39);" class="z-10 absolute bg-gray-900 w-screen h-32 bottom-20 right-0 md:h-40 md:w-2/5 md:bottom-0 md:right-24"></div>
     <img style="right:-150px" class="z-0 absolute top-24 md:top-5" src="{{ asset('assets/pictures/picture1.png') }}" alt="Homme">
     
 </div>

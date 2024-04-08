@@ -19,12 +19,12 @@
         @yield('content')
 
     </main>
-    <footer class="py-4 text-white bg-gray-900 text-center">
-        <div class="text-2xl flex justify-evenly pb-5">
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
+    <footer class="py-4 text-white bg-gray-900 text-center md:py-24">
+        <div class="text-2xl flex justify-evenly pb-5 md:pb-10">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
         </div>  
         @Devcode
     </footer>
