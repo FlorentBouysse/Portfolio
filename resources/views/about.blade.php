@@ -1,12 +1,12 @@
 @if($agent->isMobile())
-<div class="z-10">
+<div class="z-10 mt-0">
 @else
-<div style="margin-top:-300px; margin-bottom:200px" class="z-10">
+<div style="margin-top:-300px; margin-bottom:200px" class="z-20">
 @endif
-    <span class="z-10 text-xs text-green-400">About me</span>
-    <h2 class="z-10 text-3xl mt-6">Lorem Ipsum is simply dummy text of the printing</h1>
+    <span class="text-xs text-green-400">About me</span>
+    <h2 class="text-3xl mt-6">Lorem Ipsum is simply dummy text of the printing</h1>
     
-    <p class="z-10 mt-6 pe-8 md:mr-96 md:pr-52 md:text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <span class="text-green-300">industry's</span> standard dummy text ever since the <span class="text-green-300">1500s</span>, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <p class=" mt-6 pe-8 md:mr-96 md:pr-52 md:text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the <span class="text-green-300">industry's</span> standard dummy text ever since the <span class="text-green-300">1500s</span>, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
     
     
 
