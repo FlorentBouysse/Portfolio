@@ -10,6 +10,7 @@
 </head>
 <body>
     <nav class="py-4 bg-slate-500 flex text-current md:px-40">
+        {{-- Possible d'utiliser Auth::user() aussi --}}
         @if(auth()->check())
         <div>
             <a href="#">Accueil</a>
@@ -21,16 +22,17 @@
         </div>
         <div>
             {{ Auth::user()->name }}
-            <form action="{{ route('auth.logout') }}">
+            {{-- <a href="{{ route('auth.logout') }}">Déco</a> --}}
+            <form action="{{ route('auth.logout') }}" method="POST">
 
-                @method("delete")
+                @method("DELETE")
                 @csrf 
                 <button>Se déconnecter</button>
             </form>
         </div>
         
         @else
-            <a class="text-red-950 px-4" href="#">Retour sur le site</a>
+            <a class="text-red-950 px-4" href="{{ route('home') }}">Retour sur le site</a>
         @endif
     </nav>
     <main class="bg-slate-500 py-8 ps-8 overflow-hidden md:px-40">

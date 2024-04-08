@@ -24,7 +24,7 @@ class AuthController extends Controller
             $request->session()->regenerate();
             // ici on renvoie l'utilisateur vers la route qu'il voulait
             // à l'origine, s'il n'y en a pas, il sera renvoyé sur la route par défaut
-            return redirect()->intended('back.index');
+            return redirect()->intended('office/');
         }
 
         return to_route('auth.login')->withErrors([
