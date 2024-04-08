@@ -31,4 +31,10 @@ class AuthController extends Controller
             'email' => 'Identifiant incorrecte'
         ])->onlyInput('email');
     }
+
+    public function logout()
+    {
+        Auth::logout();
+        return to_route('auth.login');
+    }
 }

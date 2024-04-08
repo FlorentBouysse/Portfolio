@@ -10,7 +10,28 @@
 </head>
 <body>
     <nav class="py-4 bg-slate-500 flex text-current md:px-40">
-        <a class="text-red-950 px-4" href="#">Retour sur le site</a>
+        @if(auth()->check())
+        <div>
+            <a href="#">Accueil</a>
+            <a href="#">Musique</a>
+            <a href="#">Motivation</a>
+            <a href="#">Projets</a>
+            <a href="#">Compétences</a>
+
+        </div>
+        <div>
+            {{ Auth::user()->name }}
+            <form action="{{ route('auth.logout') }}">
+
+                @method("delete")
+                @csrf 
+                <button>Se déconnecter</button>
+            </form>
+        </div>
+        
+        @else
+            <a class="text-red-950 px-4" href="#">Retour sur le site</a>
+        @endif
     </nav>
     <main class="bg-slate-500 py-8 ps-8 overflow-hidden md:px-40">
     
