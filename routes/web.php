@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [MainController::class, 'index'])->name('home');
 
 Route::get('office/login', [AuthController::class, 'login'])->name('auth.login');
+Route::post('office/login', [AuthController::class, 'doLogin']);

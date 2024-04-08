@@ -9,7 +9,7 @@
             <input class="z-10 mb-2 rounded-lg pl-4" type="text" name="name" id="name" placeholder="Jimmy">
 
             <label class="z-10 text-start" for="email">Email</label>
-            <input class="z-10 mb-2 rounded-lg pl-4" type="text" name="email" id="email" placeholder="jimmy@email.com">
+            <input class="z-10 mb-2 rounded-lg pl-4" type="email" name="email" id="email" placeholder="jimmy@email.com">
 
             <label class="z-10 text-start" for="name_projet">Name of project</label>
             <input class="z-10 mb-2 rounded-lg pl-4" type="text" name="name_project" id="name_project" placeholder="Project">
