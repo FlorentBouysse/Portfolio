@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Back;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
 {
@@ -17,6 +18,17 @@ class AuthController extends Controller
 
     public function doLogin(LoginRequest $request)
     {
-        // return view('back.auth.login');
+        $credentials = $request->validated();
+
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+            // ici on renvoie l'utilisateur vers la route qu'il voulait
+            // à l'origine, s'il n'y en a pas, il sera renvoyé sur la route par défaut
+            return redirect()->intended('back.index');
+        }
+
+        return to_route('auth.login')->withErrors([
+            'email' => 'Identifiant incorrecte'
+        ])->onlyInput('email');
     }
 }

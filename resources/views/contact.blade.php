@@ -5,6 +5,7 @@
 
     <div class="flex flex-col justify-evenly h-96 pe-8">
         <form class="flex flex-col relative md:w-1/2 md:m-auto" action="">
+            @csrf
             <label class="z-10 text-start" for="name">Name</label>
             <input class="z-10 mb-2 rounded-lg pl-4" type="text" name="name" id="name" placeholder="Jimmy">
 
