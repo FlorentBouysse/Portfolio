@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Back\AuthController;
 use App\Http\Controllers\MainController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'index'])->name('home');
+
+Route::get('office/login', [AuthController::class, 'login'])->name('auth.login');
