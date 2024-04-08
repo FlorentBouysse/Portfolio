@@ -58,9 +58,9 @@
     @if($agent->isMobile())
     <div style="width:300px;height:300px;left:-80px; bottom:-50px;" class="rounded-full opacity-20 bg-gray-500 absolute"></div>
     @else
-    <div style="width:500px;height:500px;left:-80px; bottom:-50px;" class="rounded-full opacity-20 bg-gray-500 absolute top-24"></div>
+    <div style="width:500px;height:500px;left:-80px; bottom:-50px;" class="rounded-full opacity-20 bg-gray-500 absolute top-20"></div>
     @endif
     
     <div style="left:-10px;top:-70px" class="text-8xl opacity-5 absolute uppercase font-black text-white">Skills Possessed</div>
-    <div style="box-shadow: 0px -5px 10px rgb(17 24 39);bottom:-50px;left:-32px" class="absolute bg-gray-900 w-screen h-20 bottom-10 left-0"></div>
+    <div style="box-shadow: 0px -5px 10px rgb(17 24 39);bottom:-50px;left:-32px" class="absolute bg-gray-900 w-screen h-20 bottom-0 left-0"></div>
 </div>
